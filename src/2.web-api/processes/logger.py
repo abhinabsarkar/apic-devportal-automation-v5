@@ -11,10 +11,10 @@ def log_message(message):
 
     # Configure logging 
     logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s:%(levelname)s:%(name)s:%(message)s',
-        filename=filename,
-        filemode='a'
+        level=logging.INFO
+        # format='%(asctime)s:%(levelname)s:%(name)s:%(message)s',
+        # filename=filename,
+        # filemode='a'
     )
     # Create logger
     logger = logging.getLogger()

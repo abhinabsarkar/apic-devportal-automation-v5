@@ -1,0 +1,6 @@
+flask
+request
+flask-restful
+Resource
+urllib3
+Api
